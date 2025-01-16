@@ -1,6 +1,9 @@
 -- What are the first and last names of the players who 
 -- played for the 2020 Chicago Cubs?
 
+SELECT players.first_name, player.last_name
+FROM 
+
 -- Hint: combine WHERE clauses using AND, e.g.
 -- WHERE column1 = expression1
 -- AND column2 = expression2
